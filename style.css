@@ -1,0 +1,43 @@
+body {
+    /* Retirer l'espace par défaut de la balise body */
+    margin: 0;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #BEB7AA;
+}
+
+/* Changer la propriéte CSS de chaque élement imbriqué */
+nav * {
+    font-family: 'Croissant One', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    transition: all 0.5s;
+}
+
+/* Changer la propriété CSS du tag a en passant la souris sur lui  */
+a:hover {
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.inline {
+    /* Afficher des élemetns en ligne */
+    display: inline;
+    margin: 0 30px;
+}
+
+/* Changer le CSS des buttons seulement qui sont dans la balise nav  */
+nav button {
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
