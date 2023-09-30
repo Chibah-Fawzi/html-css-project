@@ -1,6 +1,7 @@
 body {
     /* Retirer l'espace par défaut de la balise body */
     margin: 0;
+    background-color: #CBC3B6;
 }
 
 nav {
@@ -40,4 +41,26 @@ nav button {
     color: white;
     padding: 5px 20px;
     text-transform: uppercase;
+}
+
+
+#title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: lighter;
+    padding: 0 25%;
+    margin-top: 10vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+#title span {
+    font-weight: bold;
+}
+
+.main-paragraph {
+    text-align: center;
+    padding: 0 25%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
 }
